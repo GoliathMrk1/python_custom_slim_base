@@ -19,8 +19,5 @@ ENV DEVCONTAINER_NAME="FussyPremiseSearchDocker"
 # Set the Python environment path
 ENV PATH="/usr/src/app:${PATH}"
 
-# change working directory from where you are coding
-WORKDIR /usr/src/app/code
-
 # copy folder dicrectory to container
 COPY . .
